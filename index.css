@@ -1,0 +1,29 @@
+body {
+  background-image: url("BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 80%;
+  border-radius: 10px; /* Lekerekített szélek */
+  padding: 20px;
+  text-align: center;
+  max-width: 600px; /* Opcionális: korlátozza a tartalom maximális szélességét */
+}
+
+header,
+article,
+footer {
+  text-align: center;
+  margin: 10px;
+}
